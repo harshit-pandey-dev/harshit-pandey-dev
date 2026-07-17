@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harshit Pandey | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif;scroll-behavior:smooth}
+body{background:#0d1117;color:#fff}
+header{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;padding:20px 8%;background:#111827cc;backdrop-filter:blur(8px)}
+.logo{color:#58a6ff;font-size:1.8rem;font-weight:700}
+nav a{color:#fff;text-decoration:none;margin-left:20px}
+nav a:hover{color:#58a6ff}
+section{padding:100px 8%}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap}
+.hero h1{font-size:3.5rem}
+.hero h2{color:#58a6ff;margin:15px 0}
+.btn{display:inline-block;background:#238636;color:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;margin-top:20px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#161b22;padding:20px;border-radius:14px;transition:.3s}
+.card:hover{transform:translateY(-8px)}
+h2.title{text-align:center;color:#58a6ff;margin-bottom:30px}
+footer{text-align:center;padding:30px;color:#aaa}
+@media(max-width:768px){.hero{flex-direction:column;text-align:center}nav{display:none}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">Harshit.</div>
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<h1>Hi, I'm Harshit Pandey</h1>
+<h2 id="typing"></h2>
+<p>B.Tech CSE student passionate about Java Backend Development. I build REST APIs with Spring Boot, Spring Security, JWT and PostgreSQL. Currently learning Docker and React.</p>
+<a class="btn" href="https://github.com/harshit-pandey-dev" target="_blank">Visit GitHub</a>
+</div>
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="300">
+</section>
+
+<section id="about">
+<h2 class="title">About Me</h2>
+<p>I enjoy solving DSA problems and building scalable backend applications. My goal is to become a Java Full Stack Developer and secure a software engineering internship.</p>
+</section>
+
+<section id="skills">
+<h2 class="title">Skills</h2>
+<div class="card-grid">
+<div class="card">Java</div>
+<div class="card">Spring Boot</div>
+<div class="card">Spring Security</div>
+<div class="card">JWT</div>
+<div class="card">PostgreSQL</div>
+<div class="card">HTML</div>
+<div class="card">CSS</div>
+<div class="card">JavaScript</div>
+<div class="card">Git & GitHub</div>
+<div class="card">Docker (Learning)</div>
+<div class="card">React (Learning)</div>
+<div class="card">DSA</div>
+</div>
+</section>
+
+<section id="projects">
+<h2 class="title">Projects</h2>
+<div class="card-grid">
+<div class="card"><h3>E-Commerce Application</h3><p>Spring Boot, JWT, PostgreSQL, React (In Progress)</p></div>
+<div class="card"><h3>Spring Security Authentication</h3><p>Secure authentication using JWT and BCrypt.</p></div>
+<div class="card"><h3>Job Portal API</h3><p>CRUD REST API built with Spring Boot and PostgreSQL.</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="title">Contact</h2>
+<p>Email: your-email@example.com</p>
+<p>GitHub: https://github.com/harshit-pandey-dev</p>
+<p>LinkedIn: Add your profile link here</p>
+</section>
+
+<footer>
+<p>© 2026 Harshit Pandey • Built with HTML, CSS & JavaScript</p>
+</footer>
+
+<script>
+const roles=["Java Backend Developer","Spring Boot Developer","B.Tech CSE Student"];
+let i=0,j=0,del=false;
+function type(){
+ const el=document.getElementById("typing");
+ if(!del){el.textContent=roles[i].slice(0,++j);if(j===roles[i].length){del=true;setTimeout(type,1200);return;}}
+ else{el.textContent=roles[i].slice(0,--j);if(j===0){del=false;i=(i+1)%roles.length;}}
+ setTimeout(type,del?50:100);
+}
+type();
+</script>
+</body>
+</html>
