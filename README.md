@@ -1,32 +1,46 @@
-Act as a senior software engineer and GitHub profile expert.
+Act as a senior software engineer, GitHub profile expert, and technical recruiter.
 
-Create a modern, professional, ATS-friendly, and visually appealing GitHub Profile README.md for me.
+Create a modern, professional, ATS-friendly, visually appealing GitHub Profile README.md that reflects my actual skills and career stage.
 
-My Details:
+Use Markdown only.
+
+# Personal Information
 
 Name: Harshit Pandey
+
+GitHub Username: harshit-pandey-dev
 
 Role:
 Java Backend Developer | Spring Boot Developer | B.Tech CSE Student
 
-About Me:
-- B.Tech Computer Science student
-- Passionate about Backend Development
-- Currently learning Docker and React
-- Building Full Stack projects using Spring Boot, React, PostgreSQL, Spring Security, and JWT
-- Love solving Data Structures & Algorithms problems
-- Interested in scalable backend systems, REST APIs, and cloud technologies
-- Preparing for Software Engineering internships
+Career Goal:
+Seeking Software Engineering and Java Backend Internship opportunities.
 
-Skills:
+# About Me
 
-Programming Languages:
+I am a B.Tech Computer Science Engineering student passionate about Backend Development.
+
+I enjoy building scalable backend applications using Java and Spring Boot while continuously improving my Data Structures & Algorithms skills.
+
+Currently I am learning Docker and React to become a Full Stack Java Developer.
+
+I enjoy solving real-world problems, building REST APIs, and learning modern backend technologies.
+
+# Education
+
+- B.Tech Computer Science Engineering
+- ABES Engineering College
+- AKTU
+
+# Skills
+
+Programming Languages
 - Java
 - SQL
 - Python
 - C
 
-Backend:
+Backend
 - Spring Boot
 - Spring MVC
 - Spring Data JPA
@@ -35,67 +49,112 @@ Backend:
 - REST APIs
 - Maven
 
-Frontend:
+Frontend
 - HTML
 - CSS
 - JavaScript
 - JSP
-- React (Learning)
+- React (Currently Learning)
 
-Database:
+Database
 - PostgreSQL
 
-Tools:
+Developer Tools
 - Git
 - GitHub
-- Postman
 - IntelliJ IDEA
 - VS Code
+- Postman
 - Docker (Learning)
 
-Concepts:
-- OOP
+Concepts
+- Object Oriented Programming
 - Data Structures
 - Algorithms
-- Authentication & Authorization
 - MVC Architecture
+- Authentication & Authorization
 - CRUD Operations
 
-Current Focus:
-- Spring Security
+# Current Learning
+
 - Docker
 - React
-- System Design Basics
 - Microservices
+- System Design Basics
+- Advanced Spring Security
 - DSA
 
-Projects:
-Leave placeholders for:
+# Projects
+
+Create beautiful project cards with placeholders for:
+
 1. E-Commerce Application
+Tech Stack:
+Spring Boot, Spring Security, JWT, PostgreSQL, React
+
+Description:
+A full-stack e-commerce application featuring secure authentication, product management, shopping cart, and REST APIs.
+
 2. Spring Security JWT Authentication
-3. Job Portal API
+
+Description:
+Implemented secure user authentication using Spring Security, JWT, BCrypt Password Encoding, and Role-Based Authorization.
+
+3. Job Portal REST API
+
+Description:
+REST API built using Spring Boot and PostgreSQL supporting CRUD operations and layered architecture.
+
 4. Future Projects
 
-Requirements:
-- Use an attractive layout.
-- Include animated typing header.
-- Add profile views badge.
-- Add GitHub followers badge.
-- Add GitHub stars badge.
-- Add social icons for LinkedIn, Gmail, and Portfolio.
-- Include Tech Stack icons using skillicons.dev.
-- Include GitHub Stats.
-- Include GitHub Streak Stats.
-- Include Top Languages card.
-- Add Contribution Graph.
-- Add an "About Me" section.
-- Add "Currently Learning" section.
-- Add "Achievements" section.
-- Add "Quote of the Day" section.
-- Add "Let's Connect" section.
-- Add a footer saying:
-  "Thanks for visiting my profile! ⭐"
+Leave placeholders.
 
-Use Markdown only.
+# Requirements
 
-The README should look similar in quality to top GitHub developer profiles.
+Use a clean dark-theme friendly layout.
+
+Include:
+
+- Animated Typing Header
+- Professional Introduction
+- About Me Section
+- Tech Stack using skillicons.dev
+- Current Learning Section
+- Featured Projects Section
+- GitHub Readme Stats
+- GitHub Streak Stats
+- Top Languages Card
+- GitHub Contribution Graph
+- Visitor Counter
+- Contact Section
+- Footer
+
+Use my GitHub username:
+
+harshit-pandey-dev
+
+for every GitHub statistics card.
+
+# Contact
+
+Leave placeholders for:
+
+LinkedIn
+
+Email
+
+Portfolio (only if available)
+
+# Important
+
+Do NOT invent any information.
+
+Do NOT add fake achievements.
+
+Do NOT add fake certifications.
+
+Do NOT add fake work experience.
+
+If information is unavailable, leave a placeholder.
+
+The final README should look similar to the GitHub profiles of experienced Java Backend Developers and should impress recruiters while remaining truthful and professional.
